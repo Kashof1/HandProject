@@ -1,6 +1,5 @@
 import cv2 as cv
 import mediapipe as mp
-new_line = '\n'
 
 
 mp_drawing = mp.solutions.drawing_utils
