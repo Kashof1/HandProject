@@ -1,2 +1,3 @@
+import videostream as vs
 if __name__ == '__main__':
-    pass
+    vs.TrackedVideoFeed()
