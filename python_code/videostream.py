@@ -6,7 +6,7 @@ def TrackedVideoFeed():
     mp_drawing = mp.solutions.drawing_utils
     mp_hands = mp.solutions.hands
     with mp_hands.Hands(
-        min_detection_confidence=0.8, min_tracking_confidence=0.5, max_num_hands=3
+        min_detection_confidence=0.8, min_tracking_confidence=0.5, max_num_hands=1
     ) as hands:
         capture = cv.VideoCapture(0)
         width = capture.get(3)
